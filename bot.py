@@ -44,5 +44,5 @@ async def on_ready():
     print('------')
 
 
-# testing VCS fourth iteration
+#testing VCS Second iteration
 client.run(TOKEN)
