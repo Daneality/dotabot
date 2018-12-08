@@ -43,4 +43,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
+
+#testing VCS
 client.run(TOKEN)
