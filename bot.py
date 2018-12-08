@@ -1,7 +1,7 @@
 import discord
 import shelve
 from buffparse import getKDA
-TOKEN = 'NTIwNjU4MzY5NzU3ODM5Mzcx.DuyM5w.MgQIwsOO9IVnzYSUryW0duP8oAg'
+from settings import TOKEN
 
 client = discord.Client()
 
