@@ -22,9 +22,9 @@ async def on_message(message):
         kda = getKDA( id )
         k , d , a = map( int , kda.split( '/' ) )
         if (k + a) / d < 1.5 :
-            msg = '{0.author.mention}, you`re so low skilled!  KDA: {1}'.format( message , kda )
+            msg = '{0.author.mention}, you`re so low skilled!  KDA: {1} <:roflanebalo:390208011580473344>'.format( message , kda )
         else :
-            msg = '{0.author.mention}, you`ve played well!   KDA: {1}'.format( message , kda )
+            msg = '{0.author.mention}, you`ve played well!   KDA: {1} :ok_hand: '.format( message , kda )
         await client.send_message( message.channel , msg )
     if message.content.startswith( '?addID' ) :
         k=shelve.open('ids')
